@@ -24,10 +24,10 @@ Deep Comparative Analysis on time series Data.
 <br />
 <p align="center">
   <a href="https://github.com/Saurav-Raghaw/ML16-Recommendation-Sysytem">
-    <img src="movie_coll.jpeg" alt="Logo" width="1500" height="500">
+    <img src="screenshot.png" alt="Logo" width="1500" height="500">
   </a>
 
-  <h3 align="center">Movie Recommendation System</h3>
+  <h3 align="center">Revenue Forecasting</h3>
 
   <p align="center">
     A similar movie recommendation based on your search!
@@ -73,19 +73,18 @@ Deep Comparative Analysis on time series Data.
 
 As we know, a recommender system is an information filtering system that seeks to predict the rating given by a user to an item. This predicted rating is then used to recommend items to the user. The item for which the predicted rating is high will be recommended to the user.
 
-Recommender systems are utilized in a variety of areas such as Amazon, UberEats, Netflix, and Youtube.
-
-We have generally four types of Recommender Systems (RS):
-
-1. Collaborative Filtering
-2. Content-Based Filtering
-3. Similarity-Based Filtering
-4. Matrix Factorization
+Step 1: Importing necessary libraries.
+Step 2: Data Cleaning.
+Step 3: Feature Enginnering.
+Step 4: Defining Data Models and Evaluating.
 
 
-It is used by almost all of the major companies to enhance their business and to enrich user experience like YouTube for recommending videos, Amazon & Ebay for recommending products, Netflix for recommending Movies, Airbnb for recommending rooms and hotels, Facebook for recommending friends etc.
-
-Here we have build a movie recommender model that works similar like Netflix and Amazon Prime movie recommender system.
+Various Forecasting Models:
+1. Naïve model: In this model the forecasting values of new data is same as the value of last known data. For example, If we have last month fees in training data as 1000, then for all the coming months the same fees will be forecasted.
+2. Moving average: In this method, we take average of some last observations and forecasting in done on that basis.For eg, we have done experiment by taking last 3, 5 and 10 observations.
+3. Simple Exponential Smoothing: In Exponential Smoothing, the far observations get less weightage and recent observations got more weightage.
+4. Holts Linear Trend Model: In this method, we take trend of data also into consideration with simple exponential smoothing.
+5. Holt's Winter Model: The previous methods doesn’t take seasonality into account. This method takes trend and seasonality both to predict future fees.
 
 Movie Recommendation
 
@@ -97,70 +96,12 @@ Movie Recommendation
 <br />
 <p align="center">
   <a href="https://github.com/Saurav-Raghaw/ML16-Recommendation-Sysytem">
-    <img src="Screenshot -1.png" alt="Logo" width="1500" height="500">
+    <img src="screenshot -1.png" alt="Logo" width="1500" height="500">
   </a>
 
 </p>
 
-<br />
 
-<p align="center">
-    Screenshot-2
-    <br />
-    
-  </p>
-<br />
-<p align="center">
-  <a href="https://github.com/Saurav-Raghaw/ML16-Recommendation-Sysytem">
-    <img src="Screenshot -2.png" alt="Logo" width="1500" height="500">
-  </a>
-
-</p>
-
-<br />
-
-<p align="center">
-    Screenshot-3
-    <br />
-    
-  </p>
-<br />
-<p align="center">
-  <a href="https://github.com/Saurav-Raghaw/ML16-Recommendation-Sysytem">
-    <img src="Screenshot -3.png" alt="Logo" width="1500" height="500">
-  </a>
-
-</p>
-
-<br />
-
-<p align="center">
-    Screenshot-4
-    <br />
-    
-  </p>
-<br />
-<p align="center">
-  <a href="https://github.com/Saurav-Raghaw/ML16-Recommendation-Sysytem">
-    <img src="Screenshot -5.png" alt="Logo" width="1500" height="500">
-  </a>
-
-</p>
-
-<br />
-
-<p align="center">
-    Screenshot-5
-    <br />
-    
-  </p>
-<br />
-<p align="center">
-  <a href="https://github.com/Saurav-Raghaw/ML16-Recommendation-Sysytem">
-    <img src="Screenshot -4.png" alt="Logo" width="1500" height="500">
-  </a>
-
-</p>
 
 <br />
 
@@ -173,7 +114,7 @@ Movie Review
 <br />
 <p align="center">
   <a href="https://github.com/Saurav-Raghaw/ML16-Recommendation-Sysytem">
-    <img src="Screenshot (174).png" alt="Logo" width="1500" height="500">
+    <img src="screenshot.png" alt="Logo" width="1500" height="500">
   </a>
 
 </p>
@@ -187,7 +128,7 @@ Movie Review
 <br />
 <p align="center">
   <a href="https://github.com/Saurav-Raghaw/ML16-Recommendation-Sysytem">
-    <img src="Screenshot (175).png" alt="Logo" width="1500" height="500">
+    <img src="screenshot.png" alt="Logo" width="1500" height="500">
   </a>
 
 </p>
@@ -245,13 +186,6 @@ Codes Screenshots
 We have used the following frameworks for our project
 * [Python](https://www.python.org/)
 * [PyTorch](https://pytorch.org/)
-* [LSTM](https://pytorch.org/docs/stable/generated/torch.nn.LSTM.html)
-* [Bootstrap](https://getbootstrap.com)
-* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-* [HTML](https://html.com/html5/)
-
-
-
 
 
 ### Prerequisites
